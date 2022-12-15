@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a52d4e051d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main-wrap">
+        <!-- Header -->
+        <header>
+            <div class="top-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="contact-content">
+                                <div class="contact-phone">
+                                    <span>Call us:</span>
+                                    <a href="#">+123 321345</a>
+                                </div>
+                                <div class="contact-email">
+                                    <span>Email:</span>
+                                    <a href="#">lemanhddt@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-7">
+                            <div class="header-selection">
+                                <div class="single-selector">
+                                    <button class="btn-group">
+                                        <span>My account</span>
+                                        <i class="fas fa-sort-down"></i>
+                                    </button>
+                                    <ul class="list-selector">
+                                        <li><a href="#">My account</a></li>
+                                        <li><a href="#">Check out</a></li>
+                                        <li><a href="#">Sign in</a></li>
+                                    </ul>
+                                </div>
+                                <div class="single-selector">
+                                    <button class="btn-group">    
+                                        <span>Currency: USD $</span>
+                                        <i class="fas fa-sort-down"></i>
+                                    </button>
+                                    <ul class="list-selector">
+                                        <li><a href="#">USD $</a></li>
+                                        <li><a href="#">VND</a></li>
+                                    </ul>
+                                </div>
+                                <div class="single-selector">
+                                    <button class="btn-group">
+                                        <span>Language: English</span>
+                                        <i class="fas fa-sort-down"></i>
+                                    </button>
+                                    <ul class="list-selector">
+                                        <li><a href="#">English</a></li>
+                                        <li><a href="#">VietNamese</a></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="mid-header">
+                <div class="container">
+                    <div class="row">
+    
+                        <div class="col-md-3">
+                            <div class="logo-header">
+                                <a href="./index.html">
+                                    <img src="./imgs/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-6">
+                                <form class="search-box">
+                                    <input type="text" placeholder="Enter your search key ...">
+                                    <div class="icon-search">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                </form>
+                        </div>
+    
+                        <div class="col-md-3">
+                            <div class="cart-box">
+                                <div class="cart-icon">
+                                    <i class="fas fa-shopping-bag cart"></i>
+                                    <span class="cart-item-count">0</span>
+
+                                    <div class="smcart bg-w">
+                                        <div class="smcart-list d-flex flex-column">
+                                            <!-- Render list item in mini cart -->
+                                            <div class="smcart-item p-3" data-index="0">
+                                                <img src="./imgs/1.jpg" alt="" class="me-2">
+                                                <div class="smcart-item-content ms-2">
+                                                    <span class="smcart-name">The Mind of Kids</span>
+                                                    <span class="smcart-price">$16</span>    
+                                                    <div class="input-wrap">
+                                                        <input type="number" class="input-quantity" value="1" min="1" max="99">
+                                                        <div class="icon-up-down">
+                                                            <i class="fas fa-angle-up btn-up"></i>
+                                                            <i class="fas fa-angle-down btn-down"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sm-del ms-auto me-2">
+                                                    <i class="fas fa-times" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="smcart-content p-4">
+                                            <p>
+                                                SUBTOTAL
+                                                <span class="subtotal">$0</span>
+                                            </p>
+                                            <p>
+                                                SHIPPING
+                                                <span class="ship">$10</span>
+                                            </p>
+                                            <p>
+                                                TAXES
+                                                <span class="taxes">%10</span>
+                                            </p>
+                                            <p>
+                                                TOTAL
+                                                <span class="total">$0</span>
+                                            </p>                                            
+                                        </div>
+
+                                        <button class="btn-check-out">
+                                            <a href="./products.html">Check Out</a>
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <div class="price-cart-box">
+                                    <span>My cart</span>
+                                    <span class="price-cart">$0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="bot-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                                <ul class="nav-header-menu">
+                                    <li><a href="./index.html">Home</a></li>
+                                    <li><a href="#">Shop</a></li>
+                                    <li><a href="#">Page</a></li>
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Hero banner -->
+        <section class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 order-lg-0 col-sm-6 order-sm-1 order-2">
+                        <div class="left-slide-box bg-w">
+                            <div class="header-slide">
+                                <i class="fas fa-tag"></i>
+                                <span>Hot deals</span>
+                                <div class="btn-control">
+                                    <i class="fas fa-chevron-left btn-pre"></i>
+                                    <i class="fas fa-chevron-right btn-next"></i>
+                                </div>
+                            </div>
+                            <div class="slides-wrap">
+                                <div class="single-slide">
+                                    <div class="box">
+                                        <div class="boxs-img">
+                                            <img src="./imgs/1.jpg" alt="" class="img-1">
+    
+                                            <div class="boxs-tag">
+                                                <div class="tag-new tag">New</div>
+                                                <div class="tag-sale tag">-20%</div>
+                                            </div>
+    
+                                            <div class="boxs-link">
+                                                <div class="box-cart box-icon">
+                                                    <i class="fas fa-shopping-bag"></i>
+                                                </div>
+                                                <div class="box-eye box-icon">
+                                                    <i class="fas fa-eye"></i>
+                                                </div>
+                                                <div class="box-share box-icon">
+                                                    <i class="fas fa-share-alt"></i>
+                                                </div>
+                                            </div>
+                                        </div>  
+    
+                                        <div class="boxs-text">
+                                            <span class="name-book">
+                                                Enter The Sea
+                                            </span>
+    
+                                            <div class="boxs-star">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </div>
+    
+                                            <div class="boxs-price">
+                                                <div class="pri-sale">$18</div>
+                                                <div class="pri-ori">$20</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-lg-6 order-lg-1 col-sm-12 order-sm-0 order-0">
+                        <div class="mid-slide-box h-100 py-lg-0 py-md-3 pb-3">
+                            <div class="btn-control">
+                                <div class="icon-wrap btn-pre-wrap">
+                                    <i class="fas fa-chevron-left btn-pre"></i>
+                                </div>
+                                <div class="icon-wrap btn-next-wrap">
+                                    <i class="fas fa-chevron-right btn-next"></i>
+                                </div>
+                            </div>
+    
+                            <div class="dot-control">
+                                <span class="active" data-dot="0"></span>
+                                <span data-dot="1"></span>
+                            </div>
+                            <div class="slider-wrap h-100">
+                                <div class="single-slide h-100">
+                                    <div class="content">
+                                        <p>black friday</p>
+                                        <p>sale 30% off</p>
+                                        <span>all medical books</span>
+                                        <div class="btn-fill">Shop now</div>
+                                    </div>
+                                    <img src="./imgs/hero-mid-1.jpg" alt="">
+                                </div>
+                                <div class="single-slide h-100">
+                                    <div class="content">
+                                        <p>big sale</p>
+                                        <p>up to 50% off</p>
+                                        <span>all medical items</span>
+                                        <div class="btn btn-fill">Shop now</div>
+                                    </div>
+                                    <img src="./imgs/hero-mid-2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 order-lg-2 col-sm-6 order-sm-2 order-1">
+                        <div class="right-hero pb-3 pb-sm-0">
+                            <img src="./imgs/hero-right-1.jpg" alt="">
+                            <img src="./imgs/hero-right-2.jpg" alt="">
+                            <img src="./imgs/hero-right-3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row bg-w m-0">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bot-hero">
+                            <div class="icon">
+                                <i class="far fa-clock"></i>
+                            </div>
+                            <div class="text">
+                                <span>Mon - Fri / 8:00 - 18:00</span>
+                                <span>Working Days/Hours!</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bot-hero">
+                            <div class="icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="text">
+                                <span>888 345 6789</span>
+                                <span>Free support line!</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bot-hero">
+                            <div class="icon">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                            <div class="text">
+                                <span>info@yourdomain.com</span>
+                                <span>Orders Support!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURED PRODUCT -->
+        <section class="featured-product-section m-t-55 m-b-30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="featured-product">
+                            <div class="title-wrap m-b-24">
+                                <span class="title-text">FEATURED PRODUCT</span>
+                                <div class="btn-title">
+                                    <i class="fas fa-chevron-left btn-pre"></i>
+                                    <i class="fas fa-chevron-right btn-next"></i>
+                                </div>
+                            </div>
+                            <div class="carousel-boxs bg-w mb-5">
+                                <div class="box">
+                                    <div class="boxs-img">
+                                        <img src="./imgs/1.jpg" alt="" class="img-1">
+
+                                        <div class="boxs-tag">
+                                            <div class="tag-new tag">New</div>
+                                            <div class="tag-sale tag">-20%</div>
+                                        </div>
+
+                                        <div class="boxs-link">
+                                            <div class="box-cart box-icon">
+                                                <i class="fas fa-shopping-bag"></i>
+                                            </div>
+                                            <div class="box-eye box-icon">
+                                                <i class="fas fa-eye"></i>
+                                            </div>
+                                            <div class="box-share box-icon">
+                                                <i class="fas fa-share-alt"></i>
+                                            </div>
+                                        </div>
+                                    </div>  
+
+                                    <div class="boxs-text">
+                                        <span class="name-book">
+                                            Enter The Sea
+                                        </span>
+
+                                        <div class="boxs-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+
+                                        <div class="boxs-price">
+                                            <div class="pri-sale">$18</div>
+                                            <div class="pri-ori">$20</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner section -->
+        <section class="banner-1-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="banner">
+                            <a href="#">
+                                <img src="./imgs/baner-1.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- list-products -->
+        <section class="list-products">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <div class="top d-flex flex-column align-items-center justify-content-center">
+                            <h4 class="mt-5 mb-3">LIST PRODUCT</h4>
+                            <div>
+                              <button type="button" class="btn btn-secondary btn-danger" data-filter="all">All</button>
+                              <button type="button" class="btn btn-secondary" data-filter="children">Children's Books</button>
+                              <button type="button" class="btn btn-secondary" data-filter="comic">Comic Book</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row bg-w py-3 gallery">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <div class="box border p-3" data-id="1" data-item="comic">
+                            <div class="boxs-img">
+                                <img src="./imgs/1.jpg" alt="" class="img-1">
+
+                                <div class="boxs-tag">
+                                    <div class="tag-new tag">New</div>
+                                    <div class="tag-sale tag">-20%</div>
+                                </div>
+
+                                <div class="boxs-link">
+                                    <div class="box-cart box-icon">
+                                        <i class="fas fa-shopping-bag"></i>
+                                    </div>
+                                    <div class="box-eye box-icon">
+                                        <i class="fas fa-eye"></i>
+                                    </div>
+                                    <div class="box-share box-icon">
+                                        <i class="fas fa-share-alt"></i>
+                                    </div>
+                                </div>
+                            </div>  
+
+                            <div class="boxs-text">
+                                <span class="name-book">
+                                    Enter The Sea
+                                </span>
+
+                                <div class="boxs-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+
+                                <div class="boxs-price">
+                                    <div class="pri-sale">$18</div>
+                                    <div class="pri-ori">$20</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <!-- render -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="wrap bg-bl">
+                <div class="container">
+                    <div class="row top-footer">
+                        <div class="col-lg-5">
+                            <div class="fb-newsletters">
+                                <h2 class="newsletters">SIGN UP FOR NEWSLETTERS</h2>
+                                <p class="short-desc">Be The First To Know. Sign Up For Newsletter Today</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="email-sub-form-wrap">
+                                <form class="email-sub-form">
+                                    <input type="email" placeholder="Enter your email..." class="input-email">
+                                    <button type="submit" class="btn-sub-email">submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>           
+                </div>   
+            </div>
+
+            <div class="wrap bg-w">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <ul class="footer-menu">
+                                <h3>PRODUCTS</h3>
+                                <li><a href="#">Price Shop</a></li>
+                                <li><a href="#">New products</a></li>
+                                <li><a href="#">Best sales</a></li>
+                                <li><a href="#">Login</a></li>
+                                <li><a href="#">My Account</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <ul class="footer-menu">
+                                <h3>OUT company</h3>
+                                <li><a href="#">Delivery</a></li>
+                                <li><a href="#">Legal Notice</a></li>
+                                <li><a href="#">Terms and conditions of use</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Contact us/a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <ul class="footer-menu">
+                                <h3>Your account</h3>
+                                <li><a href="#">Addresses</a></li>
+                                <li><a href="#">credit slips</a></li>
+                                <li><a href="#">order</a></li>
+                                <li><a href="#">personal info</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <ul class="footer-menu">
+                                <h3>Your account</h3>
+                                <li><a href="#">Addresses</a></li>
+                                <li><a href="#">credit slips</a></li>
+                                <li><a href="#">order</a></li>
+                                <li><a href="#">personal info</a></li>
+                            </ul>
+                        </div>
+                        <!-- <div class="col-lg-5">
+                            <a href="#">
+                                <img src="./imgs/logo2.png" alt="">
+                            </a>
+                            <p>We Are A Team Of Designers And Developers That Create High Quality HTML Template & Woocommerce, Shopify Theme.</p>
+                            <p>Contact info:</p>
+                            <p>169-C, Technohub, Dubai Silicon Oasis.</p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="btn-to-top">
+            <i class="fas fa-level-up-alt"></i>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/egjs-jquery-transform/2.0.0/transform.min.js" integrity="sha512-vOc3jz0QulHRiyMXfp676lHxeSuzUhfuw//VUX12odAmlUbnKiXH4GQxBRqwKhF3Mkswqr5ILY9MtEM4ZwcS2A==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
